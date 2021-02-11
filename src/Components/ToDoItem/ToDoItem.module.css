@@ -1,0 +1,32 @@
+.wrapper{
+    width: 500px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dotted black;
+}
+.taskInfo{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    flex-basis: 80%;
+    display: flex;
+}
+.order{
+    margin-right: 10px;
+}
+.wrapper button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btnImg{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}

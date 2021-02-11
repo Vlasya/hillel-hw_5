@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b75efd46-d450-4132-908f-9408abb04c90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDo/ToDo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDo/ToDo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonForm/ButtonForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonForm/ButtonForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInput/FormInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInput/FormInput.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInputUpdate/FormInputUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInputUpdate/FormInputUpdate.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ToDoForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ToDoForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoItem/ToDoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoItem/ToDoItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoList/ToDoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoList/ToDoList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constans.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/059-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/063-pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/067-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/states.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oDWGarb97daK97g46a2aA9wsEz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hillel_hw_4" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git_Hub\hillel_react\hillel_hw-5\src\Components\ToDoForm\FormInput" />
+      <recent name="D:\Git_Hub\hillel_react\hillel_hw-5\src\image" />
+      <recent name="D:\Git_Hub\hillel_react\hillel_hw-5\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b75efd46-d450-4132-908f-9408abb04c90" name="Default Changelist" comment="" />
+      <created>1612821547382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612821547382</updated>
+      <workItem from="1612821550991" duration="67486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

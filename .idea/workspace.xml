@@ -2,35 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b75efd46-d450-4132-908f-9408abb04c90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDo/ToDo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDo/ToDo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonForm/ButtonForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonForm/ButtonForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInput/FormInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInput/FormInput.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInputUpdate/FormInputUpdate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInputUpdate/FormInputUpdate.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ToDoForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ToDoForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoItem/ToDoItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoItem/ToDoItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoList/ToDoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoList/ToDoList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constans.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/059-minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/063-pencil.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/067-plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/states.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonFormUpdate/ButtonFormUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonFormUpdate/ButtonFormUpdate.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDo/ToDo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDo/ToDo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonForm/ButtonForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonForm/ButtonForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonForm/ButtonForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ButtonForm/ButtonForm.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoForm/FormInput/FormInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInput/FormInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoForm/FormInput/FormInput.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInput/FormInput.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoForm/FormInputUpdate/FormInputUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInputUpdate/FormInputUpdate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoForm/FormInputUpdate/FormInputUpdate.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoForm/FormInputUpdate/FormInputUpdate.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoForm/ToDoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ToDoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoForm/ToDoForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoForm/ToDoForm.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoItem/ToDoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoItem/ToDoItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoItem/ToDoItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoItem/ToDoItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoList/ToDoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoList/ToDoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constans.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/states.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/states.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +35,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1oDWGarb97daK97g46a2aA9wsEz" />
   <component name="ProjectViewState">
@@ -63,7 +61,7 @@
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -83,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612821547382</updated>
-      <workItem from="1612821550991" duration="67486000" />
+      <workItem from="1612821550991" duration="89219000" />
+      <workItem from="1613121181070" duration="14309000" />
     </task>
     <servers />
   </component>
@@ -100,5 +99,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

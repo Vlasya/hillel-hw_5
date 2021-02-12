@@ -2,4 +2,8 @@
 .inputArea{
     display: inline-block;
     height: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 450px;
+    align-self: flex-start;
 }

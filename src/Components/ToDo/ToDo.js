@@ -3,9 +3,8 @@ import {ToDoForm} from "../ToDoForm/ToDoForm";
 import {ToDoList} from "../ToDoList/ToDoList";
 
 
-
-export const ToDo =()=>{
-    return(
+export const ToDo = () => {
+    return (
         <div className={s.wrapper}>
             <ToDoForm/>
             <ToDoList/>

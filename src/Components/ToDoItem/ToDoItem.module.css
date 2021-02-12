@@ -4,7 +4,7 @@
     margin-bottom: 20px;
     justify-content: space-between;
     align-items: center;
-    border: 1px dotted black;
+    border: 1px dashed black;
 }
 .taskInfo{
     flex-basis: 70%;
@@ -15,9 +15,11 @@
 .text{
     flex-basis: 80%;
     display: flex;
+    color: white;
 }
 .order{
     margin-right: 10px;
+    color: white;
 }
 .wrapper button{
     background-color: transparent;
@@ -29,4 +31,9 @@
     height: 20px;
     margin-right: 5px;
     cursor: pointer;
+}
+.textComplete{
+    flex-basis: 80%;
+    display: flex;
+    text-decoration: line-through;
 }

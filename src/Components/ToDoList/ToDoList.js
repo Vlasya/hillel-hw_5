@@ -5,15 +5,12 @@ import { useSelector} from "react-redux";
 
 
 export const ToDoList =()=>{
-    let tasks= useSelector(state=> state);
-
-
+    let tasks= useSelector(state=> state.tasks);
     return(
         <div className={s.wrapper}>
             {tasks.map( task=>{
                 return <ToDoItem key={task.id} task={task}/>
             })}
-
         </div>
     )
 }

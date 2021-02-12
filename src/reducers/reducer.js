@@ -1,34 +1,45 @@
-import {ADD_TASK,UPDATE_TASK,DELETE_TASK,ADD_UPDATE_TASK} from "../constans";
+import {ADD_TASK, UPDATE_TASK, DELETE_TASK, ADD_UPDATE_TASK, COMPLETE_TASK} from "../constans";
 import {tasks} from '../states'
 
-export let reducer=(state=tasks,action)=>{
-    let newTasks;
-    switch (action.type){
+
+export let reducer = (state = tasks, action) => {
+    switch (action.type) {
         case ADD_TASK:
-            newTasks=[...state,action.payload]
-            return newTasks;
+            return [...state, action.payload]
+
         case UPDATE_TASK:
-            newTasks=[...state];
-            //Находим кликнутую таску
-            let updateTask=newTasks.filter(task=>task.id===action.payload.id)
-            console.log(updateTask)
-            // меняем ей значение
-            updateTask[0].edited=true
-            // если id другой, то меняем его обратно на false (для любителей покликать)
-            newTasks=newTasks.map(item=>{
-                if(item.id!==updateTask[0].id){
-                    item.edited=false
+            let newTasks = [...state];
+            let updateTask = newTasks.filter(task => task.id === action.payload.id)
+            updateTask[0].edited = true
+            // если id другой, то меняем его обратно на false
+            newTasks = newTasks.map(item => {
+                if (item.id !== updateTask[0].id) {
+                    item.edited = false
                 }
                 return item
             })
             return newTasks
+
         case DELETE_TASK:
-            newTasks=[...state];
-            newTasks=newTasks.filter(task=> task.id !== action.payload);
-            return newTasks
+            return state.filter(task => task.id !== action.payload);
 
         case ADD_UPDATE_TASK:
-            break
+            let newStat = [...state]
+            let taskId = action.payload.id - 1
+            newStat.splice(taskId, 1, action.payload)
+            return newStat
+
+        case COMPLETE_TASK:
+            const [task, status] = action.payload
+            const newState = [...state]
+            newState.map(item => {
+                if (task.id === item.id) {
+                    item.isCompleted = !status
+                }
+                return item
+            })
+            return newState
+
         default:
             return state
     }
